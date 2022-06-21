@@ -1,27 +1,14 @@
-# NewsutyLanding
+# Newsuty Landing
+Esta es la landing page de Newsuty, desarollada con angular y sass.<br/>
+Para servir la landing page se esta utilizando flask.<br/>
+La ruta / contiene la landing page<br/>
+<br/>
+La ruta /link?url=url devolverá la url parseda usando The Open Graph protocol<br/>
+ejemplo /link?url=https://www.malagahoy.es/malaga/detenidos-Malaga-vuelo-Londres-documentacion-falsa_0_1694531960.html<br/>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+{"title":"Dos detenidos en M\u00e1laga por tratar de embarcar en un vuelo a Londres con documentaci\u00f3n falsa","url":"https://www.malagahoy.es/malaga/detenidos-Malaga-vuelo-Londres-documentacion-falsa_0_1694531960.html","url_image":"https://www.malagahoy.es/2022/02/05/malaga/policia-nacional-aeropuerto-Malaga_1654044771_151477900_1200x675.jpg"}
+<br/>
+# Dependecias python
+pip install python-opengraph flask
+# Dependecias Angular
+npm install
