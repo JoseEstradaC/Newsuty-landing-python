@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "python": "ng build --build-optimizer --baseHref=\"/static/\""
   },
   "private": true,
   "dependencies": {
